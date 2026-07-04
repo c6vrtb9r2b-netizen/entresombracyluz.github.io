@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://entresombracyluz.github.io/</loc>
+    <loc>https://entresombrasyluz.es/</loc>
+  </url>
+  <url>
+    <loc>https://entresombrasyluz.es/blog.html</loc>
+  </url>
+  <url>
+    <loc>https://entresombrasyluz.es/historias.html</loc>
+  </url>
+  <url>
+    <loc>https://entresombrasyluz.es/casos.html</loc>
+  </url>
+  <url>
+    <loc>https://entresombrasyluz.es/contacto.html</loc>
+  </url>
+  <url>
+    <loc>https://entresombrasyluz.es/palabra.html</loc>
   </url>
 </urlset>
