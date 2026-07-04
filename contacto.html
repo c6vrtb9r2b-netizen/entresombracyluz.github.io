@@ -1,19 +1,28 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" translate="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto - Entre Sombras y Luz</title>
+    <meta name="description" content="¿Tienes alguna duda o quieres compartir una historia? Contáctanos en Entre Sombras y Luz.">
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    
+    <style>
+        .contenedor { max-width: 600px; margin: 40px auto; padding: 20px; }
+        .form-group { display: flex; flex-direction: column; gap: 10px; margin-bottom: 15px; }
+        input, textarea { padding: 12px; border: 1px solid #ccc; border-radius: 5px; font-family: inherit; }
+        button { padding: 12px 20px; background-color: #0f172a; color: white; border: none; cursor: pointer; border-radius: 5px; transition: 0.3s; }
+        button:hover { background-color: #e6b800; color: #000; }
+    </style>
 </head>
 <body>
 
 <header>
     <div class="contenedor">
         <div class="logo">
-            <a href="index.html">
-                <h1>Entre Sombras y Luz</h1>.
-            </a>
+            <a href="index.html"><h1>Entre Sombras y Luz</h1></a>
         </div>
         <nav>
             <ul>
@@ -33,23 +42,32 @@
         <h2>Contacto</h2>
         <p>¿Tienes alguna duda, sugerencia o te gustaría compartir un caso? Escríbeme desde aquí.</p>
         
-        <form style="margin-top: 30px; display: flex; flex-direction: column; max-width: 500px; gap: 15px;">
-            <label style="font-weight: bold;">Nombre:</label>
-            <input type="text" style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+        <!-- Para que el formulario funcione, usa Formspree: action="https://formspree.io/f/TU_ID_AQUI" -->
+        <form action="https://formspree.io/f/TU_ID_AQUI" method="POST" style="margin-top: 30px;">
+            <div class="form-group">
+                <label style="font-weight: bold;">Nombre:</label>
+                <input type="text" name="nombre" required>
+            </div>
             
-            <label style="font-weight: bold;">Correo Electrónico:</label>
-            <input type="email" style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+            <div class="form-group">
+                <label style="font-weight: bold;">Correo Electrónico:</label>
+                <input type="email" name="email" required>
+            </div>
             
-            <label style="font-weight: bold;">Mensaje:</label>
-            <textarea style="padding: 10px; border: 1px solid #ccc; border-radius: 5px; height: 120px; resize: vertical;"></textarea>
+            <div class="form-group">
+                <label style="font-weight: bold;">Mensaje:</label>
+                <textarea name="mensaje" required style="height: 120px; resize: vertical;"></textarea>
+            </div>
             
-            <button type="button" class="boton" style="border: none; cursor: pointer; align-self: flex-start;">Enviar Mensaje</button>
+            <button type="submit">Enviar Mensaje</button>
         </form>
     </section>
 </main>
 
 <footer>
-    <p>© 2026 Entre Sombras y Luz. Todos los derechos reservados. | <a href="privacidad.html" style="color: #e6b800; text-decoration: none;">Política de Privacidad</a></p>
+    <div class="contenedor">
+        <p>&copy; 2026 Entre Sombras y Luz. Todos los derechos reservados. | <a href="privacidad.html" style="color: #e6b800; text-decoration: none;">Política de Privacidad</a></p>
+    </div>
 </footer>
 
 <script src="main.js"></script>
