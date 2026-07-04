@@ -3,72 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - Historias que Inspiran | Entre Sombras y Luz</title>
+    <title>Blog - Casos Virales</title>
     <style>
-        :root { --dorado: #e6b800; --fondo: #f8fafc; --texto: #334155; }
-        body { background-color: var(--fondo); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: var(--texto); line-height: 1.7; margin: 0; padding: 0; }
-        .header { background: #fff; padding: 40px 20px; text-align: center; border-bottom: 4px solid var(--dorado); }
-        .contenedor { max-width: 800px; margin: 40px auto; padding: 0 20px; }
-        .articulo { background: #fff; margin-bottom: 60px; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.08); transition: transform 0.3s ease; }
-        .articulo img { width: 100%; height: 400px; object-fit: cover; display: block; }
-        .contenido { padding: 40px; }
-        h3 { font-size: 1.8em; color: #1e293b; margin-top: 0; }
-        p { font-size: 1.15em; text-align: justify; }
+        body { background-color: #f4f7f6; font-family: sans-serif; color: #333; line-height: 1.6; margin: 0; padding: 0; }
+        .contenedor { max-width: 600px; margin: 0 auto; padding: 20px; }
+        .articulo { background: #fff; margin-bottom: 50px; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        
+        /* ESTO ES LA CLAVE PARA TUS FOTOS 9:16 */
+        .articulo img { 
+            width: 100%; 
+            height: 450px; /* Altura fija para que no ocupen toda la pantalla */
+            object-fit: cover; /* Recorta la imagen para que rellene el espacio sin deformarse */
+            object-position: top; /* Asegura que se vea la parte superior de la imagen */
+            display: block; 
+            border-bottom: 4px solid #e6b800;
+        }
+        
+        .contenido { padding: 25px; }
+        h3 { font-size: 1.5em; margin-top: 0; color: #1e293b; }
+        p { font-size: 1.1em; text-align: justify; }
     </style>
 </head>
 <body>
 
-<header class="header">
-    <h1>Casos Virales</h1>
-    <p>Historias que nos invitan a reflexionar sobre la humildad y el respeto.</p>
-</header>
-
-<main class="contenedor">
+<div class="contenedor">
     <!-- Caso 1 -->
     <article class="articulo">
-        <img src="caso_01.jpeg" alt="Caso 1" onerror="this.src='https://via.placeholder.com/800x400?text=Imagen+pendiente'">
+        <img src="caso_01.jpeg" alt="Caso 1">
         <div class="contenido">
             <h3>1. El hombre humilde y el vendedor de traje brillante</h3>
             <p>Era una mañana tranquila en una prestigiosa agencia de autos. De pronto, entró un hombre con ropa desgastada. El vendedor estrella, lleno de arrogancia, lo despreció. El hombre, lejos de ofenderse, hizo una llamada. Minutos después, el gerente general apareció pálido: el "campesino" era el dueño del terreno donde se erigía la agencia. El vendedor engreído terminó buscando empleo esa misma tarde.</p>
         </div>
     </article>
 
-    <!-- Caso 2 -->
-    <article class="articulo">
-        <img src="caso_02.jpeg" alt="Caso 2" onerror="this.src='https://via.placeholder.com/800x400?text=Imagen+pendiente'">
-        <div class="contenido">
-            <h3>2. La señora de la limpieza y el terror corporativo</h3>
-            <p>En el piso 40, cinco jóvenes ejecutivos trataron con desprecio a una señora que limpiaba la sala. Le exigieron que no les hablara. Minutos antes de la reunión, la mujer regresó vistiendo un traje de diseñador. Era la fundadora de la empresa que operaba desde el anonimato. La reunión no fue sobre negocios, sino sobre despidos masivos por la pésima cultura laboral.</p>
-        </div>
-    </article>
-
-    <!-- Caso 3 -->
-    <article class="articulo">
-        <img src="caso_03.jpeg" alt="Caso 3" onerror="this.src='https://via.placeholder.com/800x400?text=Imagen+pendiente'">
-        <div class="contenido">
-            <h3>3. El campesino frente al platillo deconstruido</h3>
-            <p>Don Anastasio acudió a un restaurante de lujo para celebrar sus bodas de oro. El maître le negó la entrada por su vestimenta. Al día siguiente, el gerente recibió una noticia: el contrato no sería renovado. Descubrió que Don Anastasio era el dueño del edificio y su plan era convertir el lugar en una sencilla taquería.</p>
-        </div>
-    </article>
-
-    <!-- Caso 4 -->
-    <article class="articulo">
-        <img src="caso_04.jpeg" alt="Caso 4" onerror="this.src='https://via.placeholder.com/800x400?text=Imagen+pendiente'">
-        <div class="contenido">
-            <h3>4. El chándal manchado de mostaza y el reloj de oro</h3>
-            <p>Un joven con ropa deportiva entró a una boutique exclusiva. Las vendedoras lo miraron con desprecio. El chico, sin discutir, simplemente cruzó la calle. El gerente de la joyería rival, reconociéndolo como una estrella del deporte, lo atendió con champán y le vendió dos piezas de alto valor. La vendedora de la primera tienda vio cómo su jefe regañaba a todo el equipo al enterarse de quién era el cliente perdido.</p>
-        </div>
-    </article>
-
-    <!-- Caso 5 -->
-    <article class="articulo">
-        <img src="caso_05.jpeg" alt="Caso 5" onerror="this.src='https://via.placeholder.com/800x400?text=Imagen+pendiente'">
-        <div class="contenido">
-            <h3>5. La legendaria bolsa del mandado en el banco VIP</h3>
-            <p>Una abuelita con una bolsa de supermercado esperó en el banco. El cajero, un joven petulante, se negó a atenderla. Cuando finalmente accedió, su actitud cambió: la cuenta de la mujer contenía millones. La anciana, viuda de un magnate, retiró todo su dinero y cerró su cuenta permanentemente, dejando al joven cajero temblando ante su error.</p>
-        </div>
-    </article>
-</main>
+    <!-- Repite este bloque para los otros casos (caso_02.jpeg, etc.) -->
+</div>
 
 </body>
 </html>
