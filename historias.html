@@ -1,111 +1,95 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historias - Entre Sombras y Luz</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header>
-    <div class="contenedor">
-        <div class="logo">
-            <a href="index.html">
-                <h1>Entre Sombras y Luz</h1>
-            </a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="historias.html">Historias</a></li>
-                <li><a href="palabra.html">Palabra de Dios</a></li>
-                <li><a href="casos.html">Casos</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-
 <main class="contenedor">
     <section>
-        <h2>Historias Cinematográficas</h2>
-        <p>Aquí encontrarás relatos llenos de emoción, giros inesperados y personajes en busca de redención.</p>
+        <h2>Relatos de la Verdad</h2>
+        <p>Historias crudas, dilemas morales y verdades que salen a la luz.</p>
         
-        <!-- ====================================================
-             HISTORIA: EL SUSURRO DEL FARO (MISTERIO)
-             ==================================================== -->
-        <article style="margin-top: 30px; padding: 25px; background: #ffffff; border-left: 5px solid #e6b800; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border-radius: 4px;">
-            <span style="font-size: 0.85rem; color: #888; text-transform: uppercase; letter-spacing: 1px;">Relato Corto • Misterio</span>
-            <h3 style="margin-top: 5px; font-size: 1.6rem; color: #111;">El Susurro del Faro</h3>
-            
-            <img src="faro.jpeg" alt="Imagen de la historia" style="width: 100%; max-width: 600px; height: auto; border-radius: 4px; margin: 15px 0; border: 1px solid #ccc; display: block;">
-            
-            <p style="line-height: 1.6; color: #444; margin-bottom: 15px;">
-                Durante veinte años, el viejo faro de la costa norte permaneció apagado, devorado por la niebla y el olvido. Los lugareños decían que la última noche que brilló, el farero desapareció sin dejar rastro, dejando una última anotación en su bitácora: <em>"La luz no solo guía a los barcos, también ahuyenta lo que acecha en la oscuridad"</em>.
-            </p>
-            <p style="line-height: 1.6; color: #444; margin-bottom: 15px;">
-                Mateo, un joven periodista local obsesionado con las leyendas urbanas, decidió pasar la noche del solsticio de invierno dentro de la torre abandonada. Equipado solo con una linterna, una grabadora y su escepticismo, cruzó el umbral podrido por el salitre. A la medianoche, el frío se volvió insoportable. Los engranajes oxidados de la linterna del faro comenzaron a crujir por sí solos.
-            </p>
-            <p style="line-height: 1.6; color: #444; margin-bottom: 15px;">
-                De repente, un haz de luz dorada y cegadora rasgó la niebla marina. Pero no apuntaba hacia el océano... apuntaba hacia los acantilados de tierra firme, iluminando una figura silbante que esperaba en la orilla. En ese instante, Mateo entendió que hay sombras que necesitan ser vistas para encontrar la paz.
-            </p>
-            
-            <blockquote style="margin: 20px 0; padding-left: 15px; border-left: 3px solid #e6b800; font-style: italic; color: #666;">
-                "A veces, para encender nuestra propia luz, primero debemos mirar de frente a nuestras sombras más profundas."
-            </blockquote>
+        <!-- Script de Estilo para las tarjetas -->
+        <style>
+            .articulo-historia { margin-top: 40px; padding: 30px; background: #fff; border-left: 5px solid #e6b800; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border-radius: 8px; }
+            .articulo-historia img { width: 100%; max-width: 650px; height: auto; border-radius: 6px; margin: 20px 0; border: 1px solid #eee; display: block; }
+            .articulo-historia p { line-height: 1.8; color: #333; font-size: 1.1rem; }
+            .boton-historia { display: inline-block; margin-top: 15px; padding: 12px 25px; background: #e6b800; color: #000; text-decoration: none; font-weight: bold; border-radius: 4px; }
+        </style>
+
+        <!-- HISTORIA 1 -->
+        <article class="articulo-historia">
+            <h3>El Precio del Silencio</h3>
+            <img src="imagenes/precio_silencio.jpg" alt="El Precio del Silencio">
+            <p>La señora Elena, encargada del servicio en la mansión, sabía exactamente dónde estaban los sobres de dinero que su empleadora escondía en la biblioteca. Durante años, fue testigo de negocios ilícitos y traiciones que se ocultaban bajo el barniz de la riqueza familiar, guardando un secreto que, de revelarse, no solo destruiría la reputación de sus jefes, sino que también desmoronaría los cimientos de su propia estabilidad laboral. La duda le carcomía el alma: ¿es el silencio un acto de lealtad hacia quien le da el pan, o es complicidad con el mal que día a día corroe la honestidad de un hogar?</p>
+            <a href="#" class="boton-historia">Parte 2: Haz click aquí</a>
         </article>
 
-        <!-- ====================================================
-             HISTORIA: LA TORMENTA EN EL MAR DE GALILEA (DIOS)
-             ==================================================== -->
-        <article style="margin-top: 30px; padding: 25px; background: #ffffff; border-left: 5px solid #e6b800; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border-radius: 4px;">
-            <span style="font-size: 0.85rem; color: #888; text-transform: uppercase; letter-spacing: 1px;">Reflexión • Palabra de Dios</span>
-            <h3 style="margin-top: 5px; font-size: 1.6rem; color: #111;">La Tormenta en el Mar de Galilea</h3>
-            
-            <img src="galilea.jpeg" alt="Jesús calma la tormenta" style="width: 100%; max-width: 600px; height: auto; border-radius: 4px; margin: 15px 0; border: 1px solid #ccc; display: block;">
-            
-            <p style="line-height: 1.6; color: #444; margin-bottom: 15px;">
-                Los discípulos remaban con todas sus fuerzas mientras las olas golpeaban la barca con violencia. El miedo los invadía, y al mirar a Jesús, lo encontraron durmiendo plácidamente sobre un cabezal. Desesperados, lo despertaron gritando: <em>"¡Maestro! ¿No te importa que perezquemos?"</em>.
-            </p>
-            <p style="line-height: 1.6; color: #444; margin-bottom: 15px;">
-                Él se levantó, reprendió al viento y ordenó al mar: <em>"¡Calla, enmudece!"</em>. De inmediato, el viento cesó y se hizo una gran bonanza. Luego les dijo: <em>"¿Por qué están así amedrentados? ¿Cómo no tienen fe?"</em>. Ellos se llenaron de un gran temor reverente, asombrados de que incluso los elementos le obedecieran.
-            </p>
-            
-            <blockquote style="margin: 20px 0; padding-left: 15px; border-left: 3px solid #e6b800; font-style: italic; color: #666;">
-                "No le digas a Dios qué tan grande es tu tormenta; dile a la tormenta qué tan grande es tu Dios."
-            </blockquote>
+        <!-- HISTORIA 2 -->
+        <article class="articulo-historia">
+            <h3>La Herencia Oculta</h3>
+            <img src="imagenes/herencia_oculta.jpg" alt="La Herencia Oculta">
+            <p>Cuando el testamento fue leído ante la familia, todos esperaban cifras millonarias, pero lo único que recibió el hijo menor fue un sobre lacrado con una dirección en una ciudad olvidada. Al llegar allí, descubrió una vieja libreta de apuntes que no detallaba cuentas bancarias, sino nombres de personas a las que su padre había perjudicado para amasar su fortuna. Entendió entonces que la verdadera herencia no eran los bienes materiales, sino la pesada carga de enmendar los errores de un pasado que él nunca decidió escribir, pero que ahora estaba obligado a limpiar.</p>
+            <a href="#" class="boton-historia">Parte 2: Haz click aquí</a>
         </article>
 
-        <!-- ====================================================
-             HISTORIA: LAS CARTAS DEL TIEMPO (AMOR)
-             ==================================================== -->
-        <article style="margin-top: 30px; padding: 25px; background: #ffffff; border-left: 5px solid #e6b800; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border-radius: 4px;">
-            <span style="font-size: 0.85rem; color: #888; text-transform: uppercase; letter-spacing: 1px;">Relato Corto • Amor</span>
-            <h3 style="margin-top: 5px; font-size: 1.6rem; color: #111;">Las Cartas del Tiempo</h3>
-            
-            <img src="cartas.jpeg" alt="Cartas de amor antiguas" style="width: 100%; max-width: 600px; height: auto; border-radius: 4px; margin: 15px 0; border: 1px solid #ccc; display: block;">
-            
-            <p style="line-height: 1.6; color: #444; margin-bottom: 15px;">
-                Elena encontró una caja de madera oculta en el doble fondo del viejo armario de su abuela. Dentro había decenas de cartas atadas con una cinta roja gastada, todas escritas con una caligrafía elegante pero apresurada, firmadas por un nombre que jamás había escuchado en la familia: Julián.
-            </p>
-            <p style="line-height: 1.6; color: #444; margin-bottom: 15px;">
-                Al leerlas, descubrió una historia de amor que desafió la distancia y la guerra cincuenta años atrás. Julián nunca regresó del frente, pero su última carta decía: <em>"Si el tiempo nos separa, búscame en el viento, porque mi amor por ti no pertenece a este mundo, pertenece a la eternidad"</em>. Elena entendió entonces la eterna mirada nostálgica de su abuela frente a la ventana.
-            </p>
-            
-            <blockquote style="margin: 20px 0; padding-left: 15px; border-left: 3px solid #e6b800; font-style: italic; color: #666;">
-                "El verdadero amor no se borra con los años, viaja en silencio a través del tiempo."
-            </blockquote>
+        <!-- HISTORIA 3 -->
+        <article class="articulo-historia">
+            <h3>La Última Llamada</h3>
+            <img src="imagenes/ultima_llamada.jpg" alt="La Última Llamada">
+            <p>Era medianoche cuando el teléfono sonó en la casa vacía de Julián, un hombre que no recibía llamadas desde hace años. Al contestar, una voz suave, idéntica a la de su madre fallecida hace una década, le pidió que revisara el jardín trasero, debajo del roble antiguo. Sin pensarlo dos veces, tomó una pala y comenzó a cavar, sintiendo que el aire se tornaba pesado y gélido. Lo que encontró a medio metro de profundidad cambiaría por completo la percepción que tenía sobre la trágica noche del accidente que separó a su familia para siempre.</p>
+            <a href="#" class="boton-historia">Parte 2: Haz click aquí</a>
+        </article>
+
+        <!-- HISTORIA 4 -->
+        <article class="articulo-historia">
+            <h3>El Favor Inesperado</h3>
+            <img src="imagenes/favor_inesperado.jpg" alt="El Favor Inesperado">
+            <p>Un desconocido se acercó a la mesa de café de Sofía y le dejó un sobre sin decir una sola palabra, antes de desaparecer entre la multitud. Dentro había una fotografía de ella tomada la noche anterior y una nota que decía: "Sé lo que hiciste en la oficina cuando nadie miraba". Sofía, quien siempre se había jactado de ser una mujer ejemplar, sintió cómo el suelo se abría bajo sus pies al darse cuenta de que su máscara de perfección había caído. La amenaza no era solo por el dinero, sino por la verdad que, a partir de ese momento, ya no podría ocultar nunca más.</p>
+            <a href="#" class="boton-historia">Parte 2: Haz click aquí</a>
+        </article>
+
+        <!-- HISTORIA 5 -->
+        <article class="articulo-historia">
+            <h3>El Testigo Silencioso</h3>
+            <img src="imagenes/testigo_silencioso.jpg" alt="El Testigo Silencioso">
+            <p>El cuadro que colgaba en el recibidor de la mansión parecía tener ojos que seguían a cada visitante, pero para el mayordomo, era algo mucho más perturbador. Cada vez que alguien mentía en esa casa, el lienzo emitía un leve crujido, como si la misma pintura intentara desprenderse de las falsedades que se pronunciaban en sus habitaciones. Aquella noche, ante la discusión acalorada por la desaparición de los fondos, el marco se quebró con estrépito, dejando caer una carta secreta que durante años había sido el centro de una verdad insoportable.</p>
+            <a href="#" class="boton-historia">Parte 2: Haz click aquí</a>
+        </article>
+
+        <!-- HISTORIA 6 -->
+        <article class="articulo-historia">
+            <h3>El Reloj de Arena</h3>
+            <img src="imagenes/reloj_arena.jpg" alt="El Reloj de Arena">
+            <p>Don Octavio, un anciano millonario, anunció que su fortuna sería heredada por aquel que lograra mantener encendida una vela durante tres días dentro de un sótano hermético. Lo que nadie sabía es que el sótano estaba equipado con un mecanismo que liberaba un gas somnífero, diseñado para poner a prueba la verdadera voluntad y la honestidad de sus posibles sucesores ante la tentación del descanso. Cuando el nieto mayor fue encontrado durmiendo profundamente mientras la vela aún ardía, la verdad sobre quién era realmente digno de su legado salió a la luz de la forma más amarga posible.</p>
+            <a href="#" class="boton-historia">Parte 2: Haz click aquí</a>
+        </article>
+
+        <!-- HISTORIA 7 -->
+        <article class="articulo-historia">
+            <h3>La Sombra del Pasado</h3>
+            <img src="imagenes/sombra_pasado.jpg" alt="La Sombra del Pasado">
+            <p>Después de veinte años en el extranjero, Clara regresó a su pueblo natal solo para descubrir que una mujer idéntica a ella, con su mismo nombre y sus mismos recuerdos, había ocupado su lugar desde el día en que ella se fue. Nadie en el pueblo, ni siquiera sus padres, parecía notar la diferencia o cuestionar por qué la "otra" Clara no había envejecido ni un solo día. La protagonista se enfrentó a un dilema aterrador: recuperar su vida significaba destruir la paz de sus seres queridos, o aceptar que, en algún lugar del tiempo, ella ya no existía.</p>
+            <a href="#" class="boton-historia">Parte 2: Haz click aquí</a>
+        </article>
+
+        <!-- HISTORIA 8 -->
+        <article class="articulo-historia">
+            <h3>El Diario de la Desconfianza</h3>
+            <img src="imagenes/diario_desconfianza.jpg" alt="El Diario de la Desconfianza">
+            <p>Mientras remodelaba su oficina, el abogado jefe encontró un diario oculto tras un panel falso, cuyas páginas contenían detalles precisos sobre su propia vida privada que nadie más podría haber conocido. Cada entrada describía con precisión qué desayunaría, a quién llamaría y qué errores cometería antes de que estos siquiera ocurrieran. Al llegar a la página marcada con la fecha de mañana, el abogado leyó una advertencia escrita con su propia caligrafía que lo obligaba a tomar una decisión desesperada para salvar su carrera y su vida.</p>
+            <a href="#" class="boton-historia">Parte 2: Haz click aquí</a>
+        </article>
+
+        <!-- HISTORIA 9 -->
+        <article class="articulo-historia">
+            <h3>La Llave Maestra</h3>
+            <img src="imagenes/llave_maestra.jpg" alt="La Llave Maestra">
+            <p>La sirvienta de la mansión de los Aranda siempre tuvo prohibido entrar en el ala este, pero tras años de servicio, encontró una llave olvidada en el despacho de su jefe. Al abrir la puerta, no encontró oro ni tesoros, sino una habitación llena de retratos de ella misma a lo largo de los años, capturados en momentos en los que ni siquiera recordaba haber estado allí. La realización de que su vida estaba siendo vigilada y documentada por sus patrones desde su nacimiento convirtió su mundo seguro en una jaula de cristal donde la verdad era el precio de su libertad.</p>
+            <a href="#" class="boton-historia">Parte 2: Haz click aquí</a>
+        </article>
+
+        <!-- HISTORIA 10 -->
+        <article class="articulo-historia">
+            <h3>El Veredicto Final</h3>
+            <img src="imagenes/veredicto_final.jpg" alt="El Veredicto Final">
+            <p>Un juez conocido por su integridad inquebrantable recibió un paquete anónimo que contenía pruebas irrefutables de que su propio hijo había cometido un crimen que él mismo debía juzgar esa misma semana. La presión de la prensa y la expectativa pública lo colocaron en una encrucijada donde la justicia ciega chocaba directamente con el amor paternal. En la víspera del juicio, el juez debió decidir si su honor estaba por encima de la sangre, sabiendo que cualquier decisión que tomara sellaría el destino de su familia para siempre.</p>
+            <a href="#" class="boton-historia">Parte 2: Haz click aquí</a>
         </article>
 
     </section>
 </main>
-
-<footer>
-    <p>© 2026 Entre Sombras y Luz. Todos los derechos reservados. | <a href="privacidad.html" style="color: #e6b800; text-decoration: none;">Política de Privacidad</a></p>
-</footer>
-
-<script src="main.js"></script>
-</body>
-</html>
